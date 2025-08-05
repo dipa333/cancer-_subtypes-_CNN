@@ -72,4 +72,4 @@ Deploy as a web application for clinical use
 
 📣 Contact
 
-Dipamoni Nath: [ndipamoni1@gmail.com] LinkedIn: linkedin.com/in/dipamoni-nath-568547247
+Dipamoni Nath: [ndipamoni1@gmail.com] LinkedIn:https://www.linkedin.com/in/dipamoni-nath-568547247
