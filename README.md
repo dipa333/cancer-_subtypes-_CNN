@@ -49,7 +49,7 @@ Demonstrated reliability through ROC curve and confusion matrix visualization
 
 **🚀 Future Enhancements**
 
-Extend to** multi-class classification** (invasive ductal carcinoma, lobular, etc.)
+Extend to  **multi-class classification** (invasive ductal carcinoma, lobular, etc.)
 Experiment with **transfer learning** and pretrained models (e.g., VGG16, ResNet50
 Deploy as a **web-based diagnostic tool** for clinical applications
 
