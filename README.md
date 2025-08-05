@@ -1,19 +1,16 @@
 Breast Cancer Subtype Classification using CNN
-
-This repository contains a deep learning project that classifies breast cancer subtypes from histopathological images using a Convolutional Neural Network (CNN). This project was completed as part of a training program in Bioinformatics and AI/ML.
+This repository presents a deep learning approach for classifying breast cancer subtypes (benign vs malignant) from histopathological images using Convolutional Neural Networks (CNN). The project showcases practical applications of AI and machine learning in medical image analysis, leveraging the BreakHis dataset and built entirely on Google Colab.
 
 🔬 Project Overview
-
 Title: Cancer Subtype Identification from Histopathological Images using CNN
 
-Objective: Detect and classify subtypes of breast cancer (benign or malignant) using deep learning techniques.
+Objective: Automate the classification of breast cancer subtypes using a CNN model trained on histopathology images.
 
-Dataset: BreakHis dataset (sourced via Kaggle)
+Dataset: BreakHis (sourced via Kaggle)
 
-Platform: Google Colab (cloud-based environment)
+Platform: Google Colab
 
-🛠️ Tools & Libraries Used
-
+🛠️ Tools & Libraries
 Python 3.x
 
 TensorFlow / Keras
@@ -29,47 +26,49 @@ Seaborn
 Scikit-learn
 
 📊 Methodology
+Data Splitting: Divided the dataset into training and test sets.
 
-The dataset was split into training and testing sets.
+Preprocessing: Resized, normalized, and augmented images for improved model robustness.
 
-CNN architecture was built using the Keras Sequential API.
+Model Architecture: Designed a custom CNN using Keras' Sequential API.
 
-The model was trained and evaluated using performance metrics, including accuracy, loss, and a confusion matrix.
+Training: Used categorical crossentropy loss and the Adam optimizer.
 
-Data augmentation and normalization techniques were applied to enhance model generalization.
+Evaluation: Assessed performance using accuracy score, confusion matrix, ROC curve, and classification report.
 
-🔄 Workflow
+🔄 Workflow Summary
+Data Acquisition: Downloaded via Kaggle API (kaggle.json)
 
-Data Loading: Uploaded data from Kaggle using kaggle.json
+Preprocessing: Applied resizing, normalization, and augmentation
 
-Preprocessing: Resized, normalized, and split images
+Modeling: CNN layers included Conv2D, MaxPooling2D, Dropout, Flatten, and Dense
 
-Modeling: CNN layers with Conv2D, MaxPooling, Dropout, Flatten, Dense
-
-Training: Used categorical crossentropy and Adam optimizer
-
-Evaluation: Accuracy, confusion matrix, and classification report
+Visualization: Trained model visualized with loss/accuracy graphs, ROC curve, and confusion matrix
 
 📁 Repository Contents
+breast_cancer_histopathology.ipynb: Main Jupyter Notebook with full pipeline
 
-breast_cancer_histopathology.ipynb: Main notebook
+requirements.txt: List of required Python libraries
 
-requirements.txt: Dependencies and libraries used
+confusion_matrix.png, roc_curve.png: Model performance plots
+
+README.md: Project documentation
 
 📈 Results
+The model achieved high accuracy on the validation/test set.
 
-The CNN achieved high accuracy on the test data
+Successfully distinguished between benign and malignant breast cancer subtypes.
 
-The model can distinguish between benign and malignant classes
+Demonstrated reliability through ROC curve and confusion matrix visualization.
 
-🖉 Future Work
+🚀 Future Enhancements
+Extend to multi-class classification (invasive ductal carcinoma, lobular, etc.)
 
-Extend to multi-class classification
+Experiment with transfer learning and pretrained models (e.g., VGG16, ResNet50)
 
-Test with other histopathological datasets
+Deploy as a web-based diagnostic tool for clinical applications
 
-Deploy as a web application for clinical use
-
-📣 Contact
-
-Dipamoni Nath: [ndipamoni1@gmail.com] LinkedIn:https://www.linkedin.com/in/dipamoni-nath-568547247
+📫 Contact
+Dipamoni Nath
+Email: ndipamoni1@gmail.com
+LinkedIn: https://www.linkedin.com/in/dipamoni-nath-568547247
